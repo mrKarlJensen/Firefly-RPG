@@ -1,4 +1,10 @@
-# hello-world
-I'm pushing to become a MEAN stack developer. Writing in HTML, CSS and javascript right now.
+Firefly role playing game based on pen and paper game. Practice with HTML, CSS and JS.
 
-Hello-world stack for ideas and testing out github.
+#### Does include
+* not much yet
+
+#### Want to include
+* Dice roller
+* Character, item and ship creation
+* Multiple choice story line to follow
+* Fantastic artwork thoughout
