@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+<meta charset="UTF-8"/>
+<title>Rolling dice</title>
+
+<script type="text/javascript">
+
+
+
+// Die Roll Function
+
+
+var dieRoll = function (number) {
+	var val = Math.round( Math.random() * number )
+	if (val === 0 ) {
+		val = Math.round( Math.random() * number )
+}
+return val
+}	
+
+</script>
+
+	</head>
+	
+	<body>
+<br><br>
+<center>
+<form>
+<table border="1px solid black">
+
+<tr>
+<td colspan="2">Lets roll some dice!</td>
+</tr>
+
+<tr>
+<td><input type="submit" name="D4" value="Roll 4D" onclick="alert( 'rolling 1D4 you roll a ' + dieRoll(4) )"></td>
+
+<td><input type="submit" name="D6" value="Roll D6" onclick="alert( 'rolling 1D6 you roll a ' + dieRoll(6) )"></td>
+</tr>
+
+<tr>
+<td><input type="submit" name="D8" value="Roll D8" onclick="alert( 'rolling 1D8 you roll a ' + dieRoll(8) )"></td>
+
+<td><input type="submit" name="D10" value="Roll D10" onclick="alert( 'rolling 1D10 you roll a ' + dieRoll(10) )"></td>
+</tr>
+
+<tr>
+<td><input type="submit" name="D12" value="Roll D12" onclick="alert( 'Rolling 1D12 you roll a ' + dieRoll(12) )"></td>
+
+<td><input type="submit" name="D20" value="Roll D20" onclick="alert( 'Rolling 1D20 you roll a ' + dieRoll(20) )"></td>
+</tr>
+
+</table body>
+</table>
+</form>
+</center>
+
+</body>
+</html>
